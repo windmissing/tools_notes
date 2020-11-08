@@ -19,6 +19,14 @@
     * [git使用技巧](Manage/2016-11-30-git-record.md)
     * [【译】git push报Bad file number](Manage/2016-11-16-git-error-bad-file-number.md)
     * [maven](Manage/2016-08-12-maven.md)
+* 代码检查工具
+    * [valgrind memcheck使用方法及效果](Check/2016-02-19-valgrind-memcheck.md)
+    * [valgrind memcheck 使用未初始化的内存](Check/2016-02-24-valgrind-memcheck-uninitialized.md)
+    * [valgrind memcheck 读/写已经被释放的内存](Check/2016-02-25-valgrind-memcheck-deleted.md)
+    * [valgrind memcheck 内存泄漏](Check/2016-02-29-valgrind-memcheck-memleak.md)
+    * [valgrind memcheck 使用malloc/new/new[]和free/delete/delete[]不匹配](Check/2016-02-29-valgrind-memcheck-mismatch.md)
+    * [valgrind memcheck 读/写内存越界](Check/2016-02-29-valgrind-memcheck-outrage.md)
+    * [valgrind memcheck src和dst的重叠](Check/2016-03-02-valgrind-memcheck-overlap.md)
 * 数据库
     * [redis配置文件样例(一)](Database/2015-11-21-redis-configuration-file-1.md)
     * [redis配置文件样例(二)](Database/2015-11-25-redis-configuration-file-2.md)
@@ -32,6 +40,11 @@
 * Spider
     * [spider/pyspider基础](Spider/2016-01-21-spider-pyspider-basic.md)
     * [基于pyspider的爬虫小练习 - 获取CSDN某个用户的所有文章](Spider/2016-01-22-pyspider-fetch-csdn-articles.md)
+    * [基于scrapy的爬虫小练习 - 准备工作](Spider/2016-02-17-scrapy-prepare.md)
+    * [基于scrapy的爬虫小练习 - 获取CSDN某个用户的所有文章](Spider/2016-02-25-scrapy-fetch-csdn-articles.md)
+    * [scrapy - 通过中间件设置代理](Spider/2016-06-15-scrapy-set-proxy-by-midware.md)
+    * [scrapy - 通过设置agent client解决401问题](Spider/2016-06-15-scrapy-solve-401-by-agent-client.md)
+    * [scrapy - 模拟登陆](Spider/2016-06-16-scrapy-login.md)
     * [scrapy源码学习 - 启动一个crawl命令](Spider/2016-08-16-how-to-start-scrapy-crawl-operation.md)
 * Others
     * [本地搭建ELK系统](Others/2016-01-09-set-up-ELK-locally.md)
