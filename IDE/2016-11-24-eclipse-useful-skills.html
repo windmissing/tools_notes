@@ -1,0 +1,1542 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>eclipse实用技巧 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="windmissing">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex-plus/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-click-reveal/click_reveal.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2016-12-09-create-a-eclipse-plugin-by-template.html" />
+    
+    
+    <link rel="prev" href="2016-12-16-atom-plantuml.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"windmissing/tools_notes","types":["star","watch","fork"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    IDE
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="2016-05-16-emacs-commands.html">
+            
+                <a href="2016-05-16-emacs-commands.html">
+            
+                    
+                    emacs常用快捷键
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="2016-11-15-atom-install-package-error.html">
+            
+                <a href="2016-11-15-atom-install-package-error.html">
+            
+                    
+                    atom安装package遇到的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="2016-11-28-atom-problem-and-solution.html">
+            
+                <a href="2016-11-28-atom-problem-and-solution.html">
+            
+                    
+                    atom遇到的问题及解决方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="2016-11-29-atom-init-file.html">
+            
+                <a href="2016-11-29-atom-init-file.html">
+            
+                    
+                    atom init文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="2016-11-30-atom-basic-customization.html">
+            
+                <a href="2016-11-30-atom-basic-customization.html">
+            
+                    
+                    【译】atom简单配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="2016-12-16-atom-plantuml.html">
+            
+                <a href="2016-12-16-atom-plantuml.html">
+            
+                    
+                    方便在博客中使用的UML画图工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.7" data-path="2016-11-24-eclipse-useful-skills.html">
+            
+                <a href="2016-11-24-eclipse-useful-skills.html">
+            
+                    
+                    eclipse实用技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="2016-12-09-create-a-eclipse-plugin-by-template.html">
+            
+                <a href="2016-12-09-create-a-eclipse-plugin-by-template.html">
+            
+                    
+                    eclipse插件开发 Hello World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="2016-12-09-eclipse-plugin-log.html">
+            
+                <a href="2016-12-09-eclipse-plugin-log.html">
+            
+                    
+                    eclipse插件开发 - 打log
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="2016-12-09-eclipse-plugin-not-avalible-product.html">
+            
+                <a href="2016-12-09-eclipse-plugin-not-avalible-product.html">
+            
+                    
+                    eclipse插件在真实环境中没有效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="2016-12-09-eclipse-plugin-with-thirdparty-jar.html">
+            
+                <a href="2016-12-09-eclipse-plugin-with-thirdparty-jar.html">
+            
+                    
+                    eclipse插件运行时提示NoClassDefFoundError
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="2016-12-09-eclpise-plugin-export-failure.html">
+            
+                <a href="2016-12-09-eclpise-plugin-export-failure.html">
+            
+                    
+                    eclipse插件导出失败
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Python
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Python/2020-11-25-python-libs-install.html">
+            
+                <a href="../Python/2020-11-25-python-libs-install.html">
+            
+                    
+                    pip安装python库时报错
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Python/2019-09-12-python-import-error.html">
+            
+                <a href="../Python/2019-09-12-python-import-error.html">
+            
+                    
+                    库已经安装仍报ImportError
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Python/2020-02-21-ascii-codec-cant-decode.html">
+            
+                <a href="../Python/2020-02-21-ascii-codec-cant-decode.html">
+            
+                    
+                    'ascii' codec can't decode byte 0x90 in position 614: ordinal not in range(128)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Python/2020-02-21-name-xrange-is-not-defined.html">
+            
+                <a href="../Python/2020-02-21-name-xrange-is-not-defined.html">
+            
+                    
+                    NameError: name 'xrange' is not defined
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Python/2020-02-21-object-of-type-zip-has-no-len.html">
+            
+                <a href="../Python/2020-02-21-object-of-type-zip-has-no-len.html">
+            
+                    
+                    object of type 'zip' has no len()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../Python/2020-02-21-python-error-cpickle.html">
+            
+                <a href="../Python/2020-02-21-python-error-cpickle.html">
+            
+                    
+                    ImportError: No module named 'cPickle'
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../Python/2020-02-27-cannot-import-name-downsample.html">
+            
+                <a href="../Python/2020-02-27-cannot-import-name-downsample.html">
+            
+                    
+                    ImportError: cannot import name 'downsample'
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../Python/tensorflow.html">
+            
+                <a href="../Python/tensorflow.html">
+            
+                    
+                    Failed to load the native TensorFlow runtime
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    管理工具
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Manage/2016-11-30-git-record.html">
+            
+                <a href="../Manage/2016-11-30-git-record.html">
+            
+                    
+                    git使用技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Manage/2016-11-16-git-error-bad-file-number.html">
+            
+                <a href="../Manage/2016-11-16-git-error-bad-file-number.html">
+            
+                    
+                    【译】git push报Bad file number
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../Manage/2016-08-12-maven.html">
+            
+                <a href="../Manage/2016-08-12-maven.html">
+            
+                    
+                    maven
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    代码检查工具
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Check/2016-02-19-valgrind-memcheck.html">
+            
+                <a href="../Check/2016-02-19-valgrind-memcheck.html">
+            
+                    
+                    valgrind memcheck使用方法及效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Check/2016-02-24-valgrind-memcheck-uninitialized.html">
+            
+                <a href="../Check/2016-02-24-valgrind-memcheck-uninitialized.html">
+            
+                    
+                    valgrind memcheck 使用未初始化的内存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Check/2016-02-25-valgrind-memcheck-deleted.html">
+            
+                <a href="../Check/2016-02-25-valgrind-memcheck-deleted.html">
+            
+                    
+                    valgrind memcheck 读/写已经被释放的内存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../Check/2016-02-29-valgrind-memcheck-memleak.html">
+            
+                <a href="../Check/2016-02-29-valgrind-memcheck-memleak.html">
+            
+                    
+                    valgrind memcheck 内存泄漏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../Check/2016-02-29-valgrind-memcheck-mismatch.html">
+            
+                <a href="../Check/2016-02-29-valgrind-memcheck-mismatch.html">
+            
+                    
+                    valgrind memcheck 使用malloc/new/new[]和free/delete/delete[]不匹配
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../Check/2016-02-29-valgrind-memcheck-outrage.html">
+            
+                <a href="../Check/2016-02-29-valgrind-memcheck-outrage.html">
+            
+                    
+                    valgrind memcheck 读/写内存越界
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../Check/2016-03-02-valgrind-memcheck-overlap.html">
+            
+                <a href="../Check/2016-03-02-valgrind-memcheck-overlap.html">
+            
+                    
+                    valgrind memcheck src和dst的重叠
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    数据库
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Database/2015-11-21-redis-configuration-file-1.md">
+            
+                <span>
+            
+                    
+                    redis配置文件样例(一)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../Database/2015-11-25-redis-configuration-file-2.md">
+            
+                <span>
+            
+                    
+                    redis配置文件样例(二)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../Database/2016-03-29-learn-string-from-redis.md">
+            
+                <span>
+            
+                    
+                    redis的字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../Database/2016-08-04-windows-mysql-install-and-startup.md">
+            
+                <span>
+            
+                    
+                    windows mysql安装及遇到的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    服务器
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../Server/2016-08-13-tomcat.html">
+            
+                <a href="../Server/2016-08-13-tomcat.html">
+            
+                    
+                    tomcat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../Server/2016-08-03-windows-tomcat-cat-not-start.html">
+            
+                <a href="../Server/2016-08-03-windows-tomcat-cat-not-start.html">
+            
+                    
+                    windows tomcat 无法启动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../Server/2016-08-15-c-opensource-tinyhttpd.html">
+            
+                <a href="../Server/2016-08-15-c-opensource-tinyhttpd.html">
+            
+                    
+                    C语言开源项目-tinyhttpd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../Server/2016-08-28-flask-hello-world.html">
+            
+                <a href="../Server/2016-08-28-flask-hello-world.html">
+            
+                    
+                    flask入门 --- hello world
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    Spider
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../Spider/2016-01-21-spider-pyspider-basic.html">
+            
+                <a href="../Spider/2016-01-21-spider-pyspider-basic.html">
+            
+                    
+                    spider/pyspider基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../Spider/2016-01-22-pyspider-fetch-csdn-articles.html">
+            
+                <a href="../Spider/2016-01-22-pyspider-fetch-csdn-articles.html">
+            
+                    
+                    基于pyspider的爬虫小练习 - 获取CSDN某个用户的所有文章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../Spider/2016-02-17-scrapy-prepare.html">
+            
+                <a href="../Spider/2016-02-17-scrapy-prepare.html">
+            
+                    
+                    基于scrapy的爬虫小练习 - 准备工作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../Spider/2016-02-25-scrapy-fetch-csdn-articles.html">
+            
+                <a href="../Spider/2016-02-25-scrapy-fetch-csdn-articles.html">
+            
+                    
+                    基于scrapy的爬虫小练习 - 获取CSDN某个用户的所有文章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../Spider/2016-06-15-scrapy-set-proxy-by-midware.html">
+            
+                <a href="../Spider/2016-06-15-scrapy-set-proxy-by-midware.html">
+            
+                    
+                    scrapy - 通过中间件设置代理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../Spider/2016-06-15-scrapy-solve-401-by-agent-client.html">
+            
+                <a href="../Spider/2016-06-15-scrapy-solve-401-by-agent-client.html">
+            
+                    
+                    scrapy - 通过设置agent client解决401问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../Spider/2016-06-16-scrapy-login.html">
+            
+                <a href="../Spider/2016-06-16-scrapy-login.html">
+            
+                    
+                    scrapy - 模拟登陆
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.8" data-path="../Spider/2016-08-16-how-to-start-scrapy-crawl-operation.html">
+            
+                <a href="../Spider/2016-08-16-how-to-start-scrapy-crawl-operation.html">
+            
+                    
+                    scrapy源码学习 - 启动一个crawl命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    Others
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../Others/2016-01-09-set-up-ELK-locally.html">
+            
+                <a href="../Others/2016-01-09-set-up-ELK-locally.html">
+            
+                    
+                    本地搭建ELK系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../Others/2016-01-10-logstash-filter-grok.html">
+            
+                <a href="../Others/2016-01-10-logstash-filter-grok.html">
+            
+                    
+                    logstash grok解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../Others/2016-08-23-modem-windows-second-development.html">
+            
+                <a href="../Others/2016-08-23-modem-windows-second-development.html">
+            
+                    
+                    windows短信猫二次开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >eclipse实用技巧</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x8BFB;&#x4EE3;&#x7801;"><b>1. </b>&#x8BFB;&#x4EE3;&#x7801;</a></li><li><span class="title-icon "></span><a href="#&#x7F16;&#x8F91;&#x4EE3;&#x7801;"><b>2. </b>&#x7F16;&#x8F91;&#x4EE3;&#x7801;</a></li><li><span class="title-icon "></span><a href="#&#x8C03;&#x8BD5;"><b>3. </b>&#x8C03;&#x8BD5;</a></li><li><span class="title-icon "></span><a href="#svn&#x9879;&#x76EE;&#x7BA1;&#x7406;"><b>4. </b>SVN&#x9879;&#x76EE;&#x7BA1;&#x7406;</a></li><li><span class="title-icon "></span><a href="#&#x914D;&#x7F6E;"><b>5. </b>&#x914D;&#x7F6E;</a></li><li><span class="title-icon "></span><a href="#&#x6587;&#x672C;&#x7F16;&#x8F91;&#x7684;&#x901A;&#x7528;&#x547D;&#x4EE4;"><b>6. </b>&#x6587;&#x672C;&#x7F16;&#x8F91;&#x7684;&#x901A;&#x7528;&#x547D;&#x4EE4;</a></li><li><span class="title-icon "></span><a href="#&#x91CD;&#x6784;"><b>7. </b>&#x91CD;&#x6784;</a></li></ul></div><a href="#&#x8BFB;&#x4EE3;&#x7801;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x8BFB;&#x4EE3;&#x7801;"><a name="&#x8BFB;&#x4EE3;&#x7801;" class="anchor-navigation-ex-anchor" href="#&#x8BFB;&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x8BFB;&#x4EE3;&#x7801;</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F2</td>
+<td>&#x5F53;&#x9F20;&#x6807;&#x653E;&#x5728;&#x4E00;&#x4E2A;&#x6807;&#x8BB0;&#x5904;&#x51FA;&#x73B0;Tooltip&#x65F6;&#x5019;&#x6309;F2&#x5219;&#x628A;&#x9F20;&#x6807;&#x79FB;&#x5F00;&#x65F6;Tooltip&#x8FD8;&#x4F1A;&#x663E;&#x793A;&#x5373;Show Tooltip</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>&#x8DF3;&#x8F6C;&#x5230;&#x5B9A;&#x4E49;&#x5904;</td>
+</tr>
+<tr>
+<td>F12</td>
+<td>&#x6FC0;&#x6D3B;&#x7F16;&#x8F91;&#x5668;</td>
+</tr>
+<tr>
+<td>CTRL + e/pg dn/pg up</td>
+<td>&#x5FEB;&#x901F;&#x8F6C;&#x6362;Tab&#x9875;&#x9762;</td>
+</tr>
+<tr>
+<td>CTRL + G</td>
+<td>&#x5DE5;&#x4F5C;&#x533A;&#x4E2D;&#x7684;&#x58F0;&#x660E;</td>
+<td>&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>Ctrl+H</td>
+<td>&#x6253;&#x5F00;&#x641C;&#x7D22;&#x5BF9;&#x8BDD;&#x6846;</td>
+<td>&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>Ctrl+J</td>
+<td>&#x6B63;&#x5411;&#x589E;&#x91CF;&#x67E5;&#x627E;(&#x6309;&#x4E0B;Ctrl+J&#x540E;,&#x4F60;&#x6240;&#x8F93;&#x5165;&#x7684;&#x6BCF;&#x4E2A;&#x5B57;&#x6BCD;&#x7F16;&#x8F91;&#x5668;&#x90FD;&#x63D0;&#x4F9B;&#x5FEB;&#x901F;&#x5339;&#x914D;&#x5B9A;&#x4F4D;&#x5230;&#x67D0;&#x4E2A;&#x5355;&#x8BCD;,&#x5982;&#x679C;&#x6CA1;&#x6709;,&#x5219;&#x5728;stutes line&#x4E2D;&#x663E;&#x793A;&#x6CA1;&#x6709;&#x627E;&#x5230;&#x4E86;)</td>
+<td>&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+J</td>
+<td>&#x53CD;&#x5411;&#x589E;&#x91CF;&#x67E5;&#x627E;</td>
+<td>&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>Ctrl+K</td>
+<td>&#x53C2;&#x7167;&#x9009;&#x4E2D;&#x7684;Word&#x5FEB;&#x901F;&#x5B9A;&#x4F4D;&#x5230;&#x4E0B;&#x4E00;&#x4E2A;</td>
+<td>&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>CTRL + L</td>
+<td>&#x8F6C;&#x81F3;&#x884C;</td>
+</tr>
+<tr>
+<td>CTRL + m</td>
+<td>&#x6253;&#x5F00;/&#x5173;&#x95ED;&#x7F16;&#x8F91;&#x5668;&#x7A97;&#x53E3;&#x6700;&#x5927;&#x5316;</td>
+</tr>
+<tr>
+<td>CTRL + o</td>
+<td>&#x67E5;&#x770B;&#x5F53;&#x524D;&#x7C7B;&#x7684;&#x65B9;&#x6CD5;&#x6216;&#x67D0;&#x4E2A;&#x7279;&#x5B9A;&#x65B9;&#x6CD5;</td>
+</tr>
+<tr>
+<td>CTRL + T &#x6216; F4</td>
+<td>&#x67E5;&#x770B;&#x4E00;&#x4E2A;&#x7C7B;&#x7684;&#x7EE7;&#x627F;&#x5173;&#x7CFB;&#x6811;&#xFF0C;&#x81EA;&#x9876;&#x5411;&#x4E0B;&#x7684;&#x3002;&#x518D;&#x591A;&#x6309;&#x4E00;&#x6B21;<code>CTRL + T</code>, &#x4F1A;&#x6362;&#x6210;&#x81EA;&#x5E95;&#x5411;&#x4E0A;&#x7684;&#x663E;&#x793A;&#x7ED3;&#x6784;</td>
+</tr>
+<tr>
+<td>CTRL + W</td>
+<td>&#x5173;&#x95ED;&#x5F53;&#x524D;Editer</td>
+</tr>
+<tr>
+<td>CTRL + Space</td>
+<td>&#x4EE3;&#x7801;&#x52A9;&#x624B;&#x5B8C;&#x6210;&#x4E00;&#x4E9B;&#x4EE3;&#x7801;&#x7684;&#x63D2;&#x5165;(&#x4F46;&#x4E00;&#x822C;&#x548C;&#x8F93;&#x5165;&#x6CD5;&#x6709;&#x51B2;&#x7A81;,&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x8F93;&#x5165;&#x6CD5;&#x7684;&#x70ED;&#x952E;,&#x4E5F;&#x53EF;&#x4EE5;&#x6682;&#x7528;Alt+/&#x6765;&#x4EE3;&#x66FF;)</td>
+</tr>
+<tr>
+<td>CTRL + /(&#x5C0F;&#x952E;&#x76D8;)</td>
+<td>&#x6298;&#x53E0;&#x5F53;&#x524D;&#x7C7B;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x4EE3;&#x7801;</td>
+</tr>
+<tr>
+<td>CTRL + &#xD7;(&#x5C0F;&#x952E;&#x76D8;)</td>
+<td>&#x5C55;&#x5F00;&#x5F53;&#x524D;&#x7C7B;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x4EE3;&#x7801;</td>
+</tr>
+<tr>
+<td>Alt + &#x5DE6;/&#x53F3;</td>
+<td>&#x5728;&#x5BFC;&#x822A;&#x5386;&#x53F2;&#x8BB0;&#x5F55;&#xFF08;Navigation History&#xFF09;&#x4E2D;&#x540E;&#x9000;/&#x524D;&#x8FDB;&#xFF08;&#x5C31;&#x50CF;Web&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x540E;&#x9000;/&#x524D;&#x8FDB;&#xFF09;&#xFF0C;&#x5728;&#x5229;&#x7528;F3&#x8DF3;&#x8F6C;&#x4E4B;&#x540E;&#xFF0C;&#x7279;&#x522B;&#x6709;&#x7528;</td>
+</tr>
+<tr>
+<td>CTRL + Shift + G</td>
+<td>&#x5728;workspace&#x4E2D;&#x641C;&#x7D22;&#x5F15;&#x7528;&#xFF08;reference&#xFF09;&#x3002;&#x5BF9;&#x4E8E;&#x65B9;&#x6CD5;&#xFF0C;&#x8FD9;&#x4E2A;&#x70ED;&#x952E;&#x7684;&#x4F5C;&#x7528;&#x548C;F3&#x6070;&#x597D;&#x76F8;&#x53CD;&#x3002;&#x5B83;&#x4F7F;&#x4F60;&#x5728;&#x65B9;&#x6CD5;&#x7684;&#x6808;&#x4E2D;&#xFF0C;&#x5411;&#x4E0A;&#x627E;&#x51FA;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;&#x7684;&#x6240;&#x6709;&#x8C03;&#x7528;&#x8005;&#x3002;</td>
+<td>&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>CTRL + SHIFT + P</td>
+<td>&#x5B9A;&#x4F4D;&#x5230;&#x6210;&#x5BF9;&#x7684;&#x5339;&#x914D;&#x7B26;(&#x5982;{})&#x7684;&#x8D77;&#x59CB;/&#x7ED3;&#x675F;&#x5904;</td>
+</tr>
+<tr>
+<td>CTRL + SHIFT + r</td>
+<td>&#x6253;&#x5F00;&#x5DE5;&#x4F5C;&#x533A;&#x4E2D;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;</td>
+<td>&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + T</td>
+<td>&#x7C7B;&#x578B;</td>
+<td>&#x641C;&#x7D22; </td>
+</tr>
+<tr>
+<td>CTRL + SHIFT + u</td>
+<td>&#x51FA;&#x73B0;&#x5728;&#x6587;&#x4EF6;&#x4E2D;</td>
+<td>&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + &#x2191;/&#x2193;</td>
+<td>&#x8F6C;&#x81F3;&#x4E0A;/&#x4E0B;&#x4E00;&#x4E2A;&#x6210;&#x5458;</td>
+</tr>
+<tr>
+<td>Ctrl+Alt+H</td>
+<td>&#x67E5;&#x770B;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;&#x88AB;&#x54EA;&#x4E9B;&#x5730;&#x8C03;&#x7528;&#xFF0C;&#x4EA7;&#x751F;&#x4E00;&#x4E2A;&#x8C03;&#x7528;&#x5173;&#x7CFB;&#x6811;</td>
+<td>&#x641C;&#x7D22;</td>
+</tr>
+</tbody>
+</table>
+<!-- more -->
+<h1 id="&#x7F16;&#x8F91;&#x4EE3;&#x7801;"><a name="&#x7F16;&#x8F91;&#x4EE3;&#x7801;" class="anchor-navigation-ex-anchor" href="#&#x7F16;&#x8F91;&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x7F16;&#x8F91;&#x4EE3;&#x7801;</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl + B</td>
+<td>&#x7F16;&#x8BD1;</td>
+</tr>
+<tr>
+<td>Ctrl + D</td>
+<td>&#x5220;&#x9664;&#x5F53;&#x524D;&#x884C;</td>
+</tr>
+<tr>
+<td>Ctrl + Q</td>
+<td>&#x56DE;&#x5230;&#x6700;&#x540E;&#x4E00;&#x6B21;&#x7F16;&#x8F91;&#x7684;&#x5730;&#x65B9;</td>
+</tr>
+<tr>
+<td>Ctrl + 1</td>
+<td>&#x5FEB;&#x901F;&#x4FEE;&#x590D;</td>
+</tr>
+<tr>
+<td>Ctrl + .</td>
+<td>&#x5C06;&#x5149;&#x6807;&#x79FB;&#x52A8;&#x81F3;&#x5F53;&#x524D;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x4E0B;&#x4E00;&#x4E2A;&#x62A5;&#x9519;&#x5904;&#x6216;&#x8B66;&#x544A;&#x5904;</td>
+</tr>
+<tr>
+<td>Ctrl - /</td>
+<td>&#x4F7F;&#x7528;<code>//</code>&#x5BF9;&#x4E00;&#x884C;&#x6216;&#x591A;&#x884C;&#x6CE8;&#x91CA;/&#x53D6;&#x6D88;&#x6CE8;&#x91CA;</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+M</td>
+<td>(&#x5148;&#x628A;&#x5149;&#x6807;&#x653E;&#x5728;&#x9700;&#x5BFC;&#x5165;&#x5305;&#x7684;&#x7C7B;&#x540D;&#x4E0A;) &#x4F5C;&#x7528;&#x662F;&#x52A0;Import&#x8BED;&#x53E5;&#x3002;</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+O</td>
+<td>&#x4F5C;&#x7528;&#x662F;&#x7F3A;&#x5C11;&#x7684;Import&#x8BED;&#x53E5;&#x88AB;&#x52A0;&#x5165;&#xFF0C;&#x591A;&#x4F59;&#x7684;Import&#x8BED;&#x53E5;&#x88AB;&#x5220;&#x9664;&#x3002;</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + /</td>
+<td>&#x4F7F;&#x7528;<code>/**/</code>&#x6CE8;&#x91CA;&#x4EE3;&#x7801;&#xFF0C;&#x518D;&#x6309;&#x4E00;&#x6B21; &#x4E0D;&#x5BF9;&#x53D6;&#x6D88;&#x3002;&#x5728;JSP&#x6587;&#x4EF6;&#x7A97;&#x53E3;&#x4E2D;&#x662F;<code>&#x3008;!--~--&#x3009;</code></td>
+</tr>
+<tr>
+<td>shift+enter</td>
+<td>&#x5F53;&#x524D;&#x884C;&#x4E4B;&#x4E0B;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7A7A;&#x767D;&#x884C;&#xFF0C;&#x4E0E;&#x5149;&#x6807;&#x662F;&#x5426;&#x5728;&#x884C;&#x672B;&#x65E0;&#x5173;</td>
+</tr>
+<tr>
+<td>Ctrl+shift+enter</td>
+<td>&#x5F53;&#x524D;&#x884C;&#x4E4B;&#x4E0A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7A7A;&#x767D;&#x884C;&#xFF0C;&#x4E0E;&#x5149;&#x6807;&#x662F;&#x5426;&#x5728;&#x884C;&#x672B;&#x65E0;&#x5173;</td>
+</tr>
+<tr>
+<td>Alt+&#x2191;/&#x2193;</td>
+<td>&#x5F53;&#x524D;&#x884C;/&#x9009;&#x4E2D;&#x884C;&#x7684;&#x5185;&#x5BB9;&#x5F80;&#x4E0A;&#x6216;&#x4E0B;&#x79FB;&#x52A8;&#x3002;&#x5728;try/catch&#x90E8;&#x5206;&#xFF0C;&#x8FD9;&#x4E2A;&#x5FEB;&#x6377;&#x65B9;&#x5F0F;&#x5C24;&#x5176;&#x597D;&#x4F7F;&#x3002;</td>
+</tr>
+<tr>
+<td>Ctrl+Alt+&#x2191;/&#x2193;</td>
+<td>&#x590D;&#x5236;&#x5E76;&#x79FB;&#x52A8;&#x9AD8;&#x4EAE;&#x663E;&#x793A;&#x7684;&#x4E00;&#x884C;&#x6216;&#x591A;&#x884C;&#x3002;<strong>&#x7ECF;&#x6D4B;&#x8BD5;&#xFF0C;&#x4E0E;&#x8C03;&#x5C4F;&#x5E55;&#x4EAE;&#x5EA6;&#x7684;key&#x51B2;&#x7A81;</strong></td>
+</tr>
+<tr>
+<td>Ctrl+Shift+X</td>
+<td>&#x628A;&#x5F53;&#x524D;&#x9009;&#x4E2D;&#x7684;&#x6587;&#x672C;&#x5168;&#x90E8;&#x53D8;&#x5473;&#x5927;&#x5199;</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+Y</td>
+<td>&#x628A;&#x5F53;&#x524D;&#x9009;&#x4E2D;&#x7684;&#x6587;&#x672C;&#x5168;&#x90E8;&#x53D8;&#x4E3A;&#x5C0F;&#x5199;</td>
+</tr>
+<tr>
+<td>Alt+Shift+&#x2191;/&#x2193;</td>
+<td>&#x9009;&#x62E9;&#x5C01;&#x88C5;&#x5143;&#x7D20;&#xFF0C;&#x9AD8;&#x4EAE;&#x4E00;&#x5757;&#x4EE3;&#x7801;</td>
+</tr>
+<tr>
+<td>Alt+Shift+&#x2190;/&#x2192;</td>
+<td>&#x9009;&#x62E9;&#x5C01;&#x88C5;&#x5143;&#x7D20;&#xFF0C;&#x9AD8;&#x4EAE;&#x4E00;&#x6BB5;&#x4EE3;&#x7801;</td>
+</tr>
+<tr>
+<td>Alt+Shift+O(&#x6216;&#x70B9;&#x51FB;&#x5DE5;&#x5177;&#x680F;&#x4E2D;&#x7684;Toggle Mark Occurrences&#x6309;&#x94AE;)</td>
+<td>&#x5F53;&#x70B9;&#x51FB;&#x67D0;&#x4E2A;&#x6807;&#x8BB0;&#x65F6;&#x53EF;&#x4F7F;&#x672C;&#x9875;&#x9762;&#x4E2D;&#x5176;&#x4ED6;&#x5730;&#x65B9;&#x7684;&#x6B64;&#x6807;&#x8BB0;&#x9EC4;&#x8272;&#x51F8;&#x663E;&#xFF0C;&#x5E76;&#x4E14;&#x7A97;&#x53E3;&#x7684;&#x53F3;&#x8FB9;&#x6846;&#x4F1A;&#x51FA;&#x73B0;&#x767D;&#x8272;&#x7684;&#x65B9;&#x5757;&#xFF0C;&#x70B9;&#x51FB;&#x6B64;&#x65B9;&#x5757;&#x4F1A;&#x8DF3;&#x5230;&#x6B64;&#x6807;&#x8BB0;&#x5904;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<h1 id="&#x8C03;&#x8BD5;"><a name="&#x8C03;&#x8BD5;" class="anchor-navigation-ex-anchor" href="#&#x8C03;&#x8BD5;"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x8C03;&#x8BD5;</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x5355;&#x6B65;&#x8FD4;&#x56DE;</td>
+<td>F7</td>
+</tr>
+<tr>
+<td>&#x5355;&#x6B65;&#x8DF3;&#x8FC7;</td>
+<td>F6</td>
+</tr>
+<tr>
+<td>&#x5355;&#x6B65;&#x8DF3;&#x5165;</td>
+<td>F5</td>
+</tr>
+<tr>
+<td>&#x5355;&#x6B65;&#x8DF3;&#x5165;&#x9009;&#x62E9;</td>
+<td>Ctrl+F5</td>
+</tr>
+<tr>
+<td>&#x8C03;&#x8BD5;&#x4E0A;&#x6B21;&#x542F;&#x52A8;</td>
+<td>F11</td>
+</tr>
+<tr>
+<td>&#x7EE7;&#x7EED;</td>
+<td>F8</td>
+</tr>
+<tr>
+<td>&#x4F7F;&#x7528;&#x8FC7;&#x6EE4;&#x5668;&#x5355;&#x6B65;&#x6267;&#x884C;</td>
+<td>Shift+F5</td>
+</tr>
+<tr>
+<td>&#x6DFB;&#x52A0;/&#x53BB;&#x9664;&#x65AD;&#x70B9;</td>
+<td>Ctrl+Shift+B</td>
+</tr>
+<tr>
+<td>&#x663E;&#x793A;</td>
+<td>Ctrl+D</td>
+</tr>
+<tr>
+<td>&#x8FD0;&#x884C;&#x81F3;&#x884C;</td>
+<td>Ctrl+R</td>
+</tr>
+<tr>
+<td>&#x6267;&#x884C;</td>
+<td>Ctrl+U</td>
+</tr>
+</tbody>
+</table>
+<h1 id="svn&#x9879;&#x76EE;&#x7BA1;&#x7406;"><a name="svn&#x9879;&#x76EE;&#x7BA1;&#x7406;" class="anchor-navigation-ex-anchor" href="#svn&#x9879;&#x76EE;&#x7BA1;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a>4. SVN&#x9879;&#x76EE;&#x7BA1;&#x7406;</h1>
+<h1 id="&#x914D;&#x7F6E;"><a name="&#x914D;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>5. &#x914D;&#x7F6E;</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x5355;&#x51FB;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4EE3;&#x7801;&#x4E2D;&#x6240;&#x6709;&#x8BE5;&#x5143;&#x7D20;&#x5B58;&#x5728;&#x7684;&#x5730;&#x65B9;&#x90FD;&#x4F1A;&#x88AB;&#x9AD8;&#x4EAE;&#x663E;&#x793A;</td>
+<td>&#x9009;&#x62E9;Windows-&gt;Preferences-&gt;Java-&gt; Editor-&gt; Mark Occurrences&#xFF0C;&#x52FE;&#x9009;&#x9009;&#x9879;</td>
+</tr>
+<tr>
+<td>&#x6839;&#x636E;&#x4EE3;&#x7801;&#x98CE;&#x683C;&#x8BBE;&#x5B9A;&#x91CD;&#x65B0;&#x683C;&#x5F0F;&#x5316;&#x4EE3;&#x7801;</td>
+<td>&#x51C6;&#x5907;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1A;Window Style-&gt;Code Formatter&#xFF0C;Code Style&#x548C;Organize Imports-&gt;Export&#x529F;&#x80FD;&#x6765;&#x751F;&#x6210;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;<br>&#x5BFC;&#x5165;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1A;&#x540C;&#x4E0A;-&gt;Import<br>&#x5E94;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1A;Control-Shift-F</td>
+</tr>
+<tr>
+<td>&#x9501;&#x5B9A;&#x547D;&#x4EE4;&#x884C;&#x7A97;&#x53E3;</td>
+<td>&#x5728;&#x547D;&#x4EE4;&#x884C;&#x89C6;&#x56FE;&#x4E2D;&#xFF08;Window -&gt;Show View -&gt;Other -&gt;Basic -&gt;Console&#xFF09;&#xFF0C;&#x8BD5;&#x8BD5;&#x770B;&#x7528;&#x6EDA;&#x52A8;&#x9501;&#x5B9A;&#x6309;&#x94AE;&#x6765;&#x9501;&#x5B9A;&#x63A7;&#x5236;&#x53F0;&#x8F93;&#x51FA;&#x4E0D;&#x8981;&#x6EDA;&#x5C4F;&#x3002;</td>
+</tr>
+<tr>
+<td>&#x4F7F;&#x7528;&#x5206;&#x7EA7;&#x5E03;&#x5C40;</td>
+<td>&#x5728;&#x5305;&#x6D4F;&#x89C8;&#x89C6;&#x56FE;&#xFF08;Package Explorer view&#xFF09;&#x4E2D;&#x9ED8;&#x8BA4;&#x7684;&#x5E03;&#x5C40;&#xFF08;&#x6241;&#x5E73;&#x5F0F;&#xFF09;&#x65B9;&#x5F0F;&#x8BA9;&#x6211;&#x56F0;&#x60D1;&#xFF0C;&#x5B83;&#x628A;&#x5305;&#x7684;&#x5168;&#x540D;&#x663E;&#x793A;&#x5728;&#x5BFC;&#x822A;&#x6811;&#xFF08;navigation tree&#xFF09;&#x4E2D;&#x3002;&#x6211;&#x66F4;&#x559C;&#x6B22;&#x6211;&#x6E90;&#x7801;&#x7684;&#x5305;&#x548C;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x89C6;&#x56FE;&#xFF0C;&#x5728;Eclipse&#x4E2D;&#x53EB;&#x505A;&#x5206;&#x7EA7;&#x5E03;&#x5C40;&#xFF08;Hierarchical Layout&#xFF09;&#x3002;&#x8981;&#x5207;&#x6362;&#x5230;&#x8FD9;&#x79CD;&#x6A21;&#x5F0F;&#xFF0C;&#x70B9;&#x51FB;&#x5305;&#x6D4F;&#x89C8;&#x89C6;&#x56FE;&#x4E2D;&#x5411;&#x4E0B;&#x7684;&#x6309;&#x94AE;&#xFF0C;&#x9009;&#x62E9;&#x5E03;&#x5C40;&#xFF08;Layout&#xFF09;&#xFF0C;&#x7136;&#x540E;&#x9009;&#x62E9;&#x5206;&#x7EA7;&#xFF08;Hierarchial&#xFF09;&#x3002;</td>
+</tr>
+<tr>
+<td>&#x4E00;&#x6B21;&#x663E;&#x793A;&#x591A;&#x4E2A;&#x6587;&#x4EF6;</td>
+<td>&#x628A;&#x4E00;&#x4E2A;&#x7F16;&#x8F91;&#x7A97;&#x53E3;&#x62D6;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x7A97;&#x53E3;&#x7684;&#x5E95;&#x90E8;&#x6216;&#x4FA7;&#x8FB9;&#x7684;&#x6EDA;&#x52A8;&#x6761;&#x4E0A;</td>
+</tr>
+<tr>
+<td>&#x663E;&#x793A;&#x884C;&#x53F7;</td>
+<td>&#x53F3;&#x51FB;&#x7A97;&#x53E3;&#x7684;&#x5DE6;&#x8FB9;&#x6846;&#x5373;&#x52A0;&#x65AD;&#x70B9;&#x7684;&#x5730;&#x65B9;&#x9009;Show Line Numbers</td>
+</tr>
+<tr>
+<td>&#x52A0;&#x65AD;&#x70B9;</td>
+<td>&#x53CC;&#x51FB;&#x7A97;&#x53E3;&#x7684;&#x5DE6;&#x8FB9;&#x6846;</td>
+</tr>
+</tbody>
+</table>
+<h1 id="&#x6587;&#x672C;&#x7F16;&#x8F91;&#x7684;&#x901A;&#x7528;&#x547D;&#x4EE4;"><a name="&#x6587;&#x672C;&#x7F16;&#x8F91;&#x7684;&#x901A;&#x7528;&#x547D;&#x4EE4;" class="anchor-navigation-ex-anchor" href="#&#x6587;&#x672C;&#x7F16;&#x8F91;&#x7684;&#x901A;&#x7528;&#x547D;&#x4EE4;"><i class="fa fa-link" aria-hidden="true"></i></a>6. &#x6587;&#x672C;&#x7F16;&#x8F91;&#x7684;&#x901A;&#x7528;&#x547D;&#x4EE4;</h1>
+<table>
+<thead>
+<tr>
+<th>&#x529F;&#x80FD;</th>
+<th>&#x5C40;&#x52BF;&#x952E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x67E5;&#x627E;&#x5E76;&#x66FF;&#x6362;</td>
+<td>Ctrl+F</td>
+</tr>
+<tr>
+<td>&#x67E5;&#x627E;&#x4E0A;&#x4E00;&#x4E2A;</td>
+<td>Ctrl+Shift+K</td>
+</tr>
+<tr>
+<td>&#x67E5;&#x627E;&#x4E0B;&#x4E00;&#x4E2A;</td>
+<td>Ctrl+K</td>
+</tr>
+<tr>
+<td>&#x64A4;&#x9500;</td>
+<td>Ctrl+Z</td>
+</tr>
+<tr>
+<td>&#x590D;&#x5236;</td>
+<td>Ctrl+C</td>
+</tr>
+<tr>
+<td>&#x7C98;&#x8D34;</td>
+<td>Ctrl+V</td>
+</tr>
+<tr>
+<td>&#x91CD;&#x505A;</td>
+<td>Ctrl+Y</td>
+</tr>
+<tr>
+<td>&#x6062;&#x590D;&#x4E0A;&#x4E00;&#x4E2A;&#x9009;&#x62E9;</td>
+<td>Alt+Shift+&#x2193;</td>
+</tr>
+<tr>
+<td>&#x526A;&#x5207;</td>
+<td>Ctrl+X</td>
+</tr>
+<tr>
+<td>&#x5FEB;&#x901F;&#x4FEE;&#x6B63;</td>
+<td>Ctrl1+1</td>
+</tr>
+<tr>
+<td>&#x5185;&#x5BB9;&#x8F85;&#x52A9;</td>
+<td>Alt+/</td>
+</tr>
+<tr>
+<td>&#x5168;&#x90E8;&#x9009;&#x4E2D;</td>
+<td>Ctrl+A</td>
+</tr>
+<tr>
+<td>&#x5220;&#x9664;</td>
+<td>Delete</td>
+</tr>
+<tr>
+<td>&#x4E0A;&#x6EDA;&#x884C;</td>
+<td>Ctrl+&#x2191;</td>
+</tr>
+<tr>
+<td>&#x4E0B;&#x6EDA;&#x884C;</td>
+<td>Ctrl+&#x2193;</td>
+</tr>
+<tr>
+<td>&#x4FDD;&#x5B58;</td>
+<td>Ctrl+S</td>
+</tr>
+<tr>
+<td>&#x5168;&#x90E8;&#x4FDD;&#x5B58;</td>
+<td>Ctrl+Shift+S</td>
+</tr>
+</tbody>
+</table>
+<h1 id="&#x91CD;&#x6784;"><a name="&#x91CD;&#x6784;" class="anchor-navigation-ex-anchor" href="#&#x91CD;&#x6784;"><i class="fa fa-link" aria-hidden="true"></i></a>7. &#x91CD;&#x6784;</h1>
+<p>&#x4E0B;&#x9762;&#x7684;&#x5FEB;&#x6377;&#x952E;&#x662F;&#x91CD;&#x6784;&#x91CC;&#x9762;&#x5E38;&#x7528;&#x7684;&#xFF0C;&#x4E00;&#x822C;&#x91CD;&#x6784;&#x7684;&#x5FEB;&#x6377;&#x952E;&#x90FD;&#x662F;Alt+Shift&#x5F00;&#x5934;</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alt+Shift+R</td>
+<td>&#x91CD;&#x547D;&#x540D;</td>
+</tr>
+<tr>
+<td>Alt+Shift+M</td>
+<td>&#x62BD;&#x53D6;&#x65B9;&#x6CD5;</td>
+</tr>
+<tr>
+<td>Alt+Shift+C</td>
+<td>&#x4FEE;&#x6539;&#x51FD;&#x6570;&#x7ED3;&#x6784;(&#x6BD4;&#x8F83;&#x5B9E;&#x7528;,&#x6709;N&#x4E2A;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x4E86;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;,&#x4FEE;&#x6539;&#x4E00;&#x6B21;&#x641E;&#x5B9A;)</td>
+</tr>
+<tr>
+<td>Alt+Shift+L</td>
+<td>&#x62BD;&#x53D6;&#x672C;&#x5730;&#x53D8;&#x91CF;( &#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x628A;&#x4E00;&#x4E9B;&#x9B54;&#x6CD5;&#x6570;&#x5B57;&#x548C;&#x5B57;&#x7B26;&#x4E32;&#x62BD;&#x53D6;&#x6210;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;,&#x5C24;&#x5176;&#x662F;&#x591A;&#x5904;&#x8C03;&#x7528;&#x7684;&#x65F6;&#x5019;)</td>
+</tr>
+<tr>
+<td>Alt+Shift+F</td>
+<td>&#x628A;Class&#x4E2D;&#x7684;local&#x53D8;&#x91CF;&#x53D8;&#x4E3A;field&#x53D8;&#x91CF;</td>
+</tr>
+<tr>
+<td>Alt+Shift+I</td>
+<td>&#x5185;&#x8054;</td>
+</tr>
+<tr>
+<td>Alt+Shift+V</td>
+<td>&#x79FB;&#x52A8;&#x51FD;&#x6570;&#x548C;&#x53D8;&#x91CF;</td>
+</tr>
+<tr>
+<td>Alt+Shift+Z/Y</td>
+<td>&#x91CD;&#x6784;&#x7684;&#x540E;&#x6094;&#x836F;(Undo)</td>
+</tr>
+</tbody>
+</table>
+<div id="gitalk-container"></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2016-12-16-atom-plantuml.html" class="navigation navigation-prev " aria-label="Previous page: 方便在博客中使用的UML画图工具">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2016-12-09-create-a-eclipse-plugin-by-template.html" class="navigation navigation-next " aria-label="Next page: eclipse插件开发 Hello World">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"eclipse实用技巧","category":"tools","tags":["eclipse"],"level":"1.2.7","depth":2,"next":{"title":"eclipse插件开发 Hello World","level":"1.2.8","depth":2,"path":"IDE/2016-12-09-create-a-eclipse-plugin-by-template.md","ref":"IDE/2016-12-09-create-a-eclipse-plugin-by-template.md","articles":[]},"previous":{"title":"方便在博客中使用的UML画图工具","level":"1.2.6","depth":2,"path":"IDE/2016-12-16-atom-plantuml.md","ref":"IDE/2016-12-16-atom-plantuml.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex","katex-plus","alerts","mygitalk","github","github-buttons","splitter","-sharing","sharing-plus","donate","copy-code-button","anchor-navigation-ex","sectionx","click-reveal"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/windmissing/tools_notes"},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"http://windmissing.github.io/images/2020/alipay.jpg","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"http://windmissing.github.io/images/2020/weixin.jpg","wechatText":"微信打赏"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"click-reveal":{},"sectionx":{},"highlight":{},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"showLevel":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","showGoTop":true,"isShowTocTitleIcon":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"katex-plus":{},"alerts":{},"github-buttons":{"repo":"windmissing/tools_notes","types":["star","watch","fork"],"size":"small"},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"8f5f5a310400f155a1fc","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["windmissing"],"createIssueManually":false,"distractionFreeMode":false,"repo":"tools_notes","owner":"windmissing","enableHotKey":true,"clientSecret":"8b3179caedf65ca284c9580593c8d3d4de21d16a","pagerDirection":"last","labels":["Gitalk"]},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"windmissing","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"3.2.3"},"file":{"path":"IDE/2016-11-24-eclipse-useful-skills.md","mtime":"2020-12-13T09:15:31.481Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-13T09:16:54.199Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-click-reveal/click_reveal.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

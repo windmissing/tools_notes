@@ -1,0 +1,1130 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ImportError: No module named 'cPickle' · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="windmissing">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex-plus/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-click-reveal/click_reveal.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2020-02-27-cannot-import-name-downsample.html" />
+    
+    
+    <link rel="prev" href="2020-02-21-object-of-type-zip-has-no-len.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"windmissing/tools_notes","types":["star","watch","fork"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    IDE
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../IDE/2016-05-16-emacs-commands.html">
+            
+                <a href="../IDE/2016-05-16-emacs-commands.html">
+            
+                    
+                    emacs常用快捷键
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../IDE/2016-11-15-atom-install-package-error.html">
+            
+                <a href="../IDE/2016-11-15-atom-install-package-error.html">
+            
+                    
+                    atom安装package遇到的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../IDE/2016-11-28-atom-problem-and-solution.html">
+            
+                <a href="../IDE/2016-11-28-atom-problem-and-solution.html">
+            
+                    
+                    atom遇到的问题及解决方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../IDE/2016-11-29-atom-init-file.html">
+            
+                <a href="../IDE/2016-11-29-atom-init-file.html">
+            
+                    
+                    atom init文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../IDE/2016-11-30-atom-basic-customization.html">
+            
+                <a href="../IDE/2016-11-30-atom-basic-customization.html">
+            
+                    
+                    【译】atom简单配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../IDE/2016-12-16-atom-plantuml.html">
+            
+                <a href="../IDE/2016-12-16-atom-plantuml.html">
+            
+                    
+                    方便在博客中使用的UML画图工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../IDE/2016-11-24-eclipse-useful-skills.html">
+            
+                <a href="../IDE/2016-11-24-eclipse-useful-skills.html">
+            
+                    
+                    eclipse实用技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../IDE/2016-12-09-create-a-eclipse-plugin-by-template.html">
+            
+                <a href="../IDE/2016-12-09-create-a-eclipse-plugin-by-template.html">
+            
+                    
+                    eclipse插件开发 Hello World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../IDE/2016-12-09-eclipse-plugin-log.html">
+            
+                <a href="../IDE/2016-12-09-eclipse-plugin-log.html">
+            
+                    
+                    eclipse插件开发 - 打log
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../IDE/2016-12-09-eclipse-plugin-not-avalible-product.html">
+            
+                <a href="../IDE/2016-12-09-eclipse-plugin-not-avalible-product.html">
+            
+                    
+                    eclipse插件在真实环境中没有效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../IDE/2016-12-09-eclipse-plugin-with-thirdparty-jar.html">
+            
+                <a href="../IDE/2016-12-09-eclipse-plugin-with-thirdparty-jar.html">
+            
+                    
+                    eclipse插件运行时提示NoClassDefFoundError
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../IDE/2016-12-09-eclpise-plugin-export-failure.html">
+            
+                <a href="../IDE/2016-12-09-eclpise-plugin-export-failure.html">
+            
+                    
+                    eclipse插件导出失败
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Python
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="2020-11-25-python-libs-install.html">
+            
+                <a href="2020-11-25-python-libs-install.html">
+            
+                    
+                    pip安装python库时报错
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="2019-09-12-python-import-error.html">
+            
+                <a href="2019-09-12-python-import-error.html">
+            
+                    
+                    库已经安装仍报ImportError
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="2020-02-21-ascii-codec-cant-decode.html">
+            
+                <a href="2020-02-21-ascii-codec-cant-decode.html">
+            
+                    
+                    'ascii' codec can't decode byte 0x90 in position 614: ordinal not in range(128)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="2020-02-21-name-xrange-is-not-defined.html">
+            
+                <a href="2020-02-21-name-xrange-is-not-defined.html">
+            
+                    
+                    NameError: name 'xrange' is not defined
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="2020-02-21-object-of-type-zip-has-no-len.html">
+            
+                <a href="2020-02-21-object-of-type-zip-has-no-len.html">
+            
+                    
+                    object of type 'zip' has no len()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.6" data-path="2020-02-21-python-error-cpickle.html">
+            
+                <a href="2020-02-21-python-error-cpickle.html">
+            
+                    
+                    ImportError: No module named 'cPickle'
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="2020-02-27-cannot-import-name-downsample.html">
+            
+                <a href="2020-02-27-cannot-import-name-downsample.html">
+            
+                    
+                    ImportError: cannot import name 'downsample'
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="tensorflow.html">
+            
+                <a href="tensorflow.html">
+            
+                    
+                    Failed to load the native TensorFlow runtime
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    管理工具
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Manage/2016-11-30-git-record.html">
+            
+                <a href="../Manage/2016-11-30-git-record.html">
+            
+                    
+                    git使用技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Manage/2016-11-16-git-error-bad-file-number.html">
+            
+                <a href="../Manage/2016-11-16-git-error-bad-file-number.html">
+            
+                    
+                    【译】git push报Bad file number
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../Manage/2016-08-12-maven.html">
+            
+                <a href="../Manage/2016-08-12-maven.html">
+            
+                    
+                    maven
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    代码检查工具
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Check/2016-02-19-valgrind-memcheck.html">
+            
+                <a href="../Check/2016-02-19-valgrind-memcheck.html">
+            
+                    
+                    valgrind memcheck使用方法及效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Check/2016-02-24-valgrind-memcheck-uninitialized.html">
+            
+                <a href="../Check/2016-02-24-valgrind-memcheck-uninitialized.html">
+            
+                    
+                    valgrind memcheck 使用未初始化的内存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Check/2016-02-25-valgrind-memcheck-deleted.html">
+            
+                <a href="../Check/2016-02-25-valgrind-memcheck-deleted.html">
+            
+                    
+                    valgrind memcheck 读/写已经被释放的内存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../Check/2016-02-29-valgrind-memcheck-memleak.html">
+            
+                <a href="../Check/2016-02-29-valgrind-memcheck-memleak.html">
+            
+                    
+                    valgrind memcheck 内存泄漏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../Check/2016-02-29-valgrind-memcheck-mismatch.html">
+            
+                <a href="../Check/2016-02-29-valgrind-memcheck-mismatch.html">
+            
+                    
+                    valgrind memcheck 使用malloc/new/new[]和free/delete/delete[]不匹配
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../Check/2016-02-29-valgrind-memcheck-outrage.html">
+            
+                <a href="../Check/2016-02-29-valgrind-memcheck-outrage.html">
+            
+                    
+                    valgrind memcheck 读/写内存越界
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../Check/2016-03-02-valgrind-memcheck-overlap.html">
+            
+                <a href="../Check/2016-03-02-valgrind-memcheck-overlap.html">
+            
+                    
+                    valgrind memcheck src和dst的重叠
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    数据库
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Database/2015-11-21-redis-configuration-file-1.md">
+            
+                <span>
+            
+                    
+                    redis配置文件样例(一)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../Database/2015-11-25-redis-configuration-file-2.md">
+            
+                <span>
+            
+                    
+                    redis配置文件样例(二)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../Database/2016-03-29-learn-string-from-redis.md">
+            
+                <span>
+            
+                    
+                    redis的字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../Database/2016-08-04-windows-mysql-install-and-startup.md">
+            
+                <span>
+            
+                    
+                    windows mysql安装及遇到的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    服务器
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../Server/2016-08-13-tomcat.html">
+            
+                <a href="../Server/2016-08-13-tomcat.html">
+            
+                    
+                    tomcat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../Server/2016-08-03-windows-tomcat-cat-not-start.html">
+            
+                <a href="../Server/2016-08-03-windows-tomcat-cat-not-start.html">
+            
+                    
+                    windows tomcat 无法启动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../Server/2016-08-15-c-opensource-tinyhttpd.html">
+            
+                <a href="../Server/2016-08-15-c-opensource-tinyhttpd.html">
+            
+                    
+                    C语言开源项目-tinyhttpd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../Server/2016-08-28-flask-hello-world.html">
+            
+                <a href="../Server/2016-08-28-flask-hello-world.html">
+            
+                    
+                    flask入门 --- hello world
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    Spider
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../Spider/2016-01-21-spider-pyspider-basic.html">
+            
+                <a href="../Spider/2016-01-21-spider-pyspider-basic.html">
+            
+                    
+                    spider/pyspider基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../Spider/2016-01-22-pyspider-fetch-csdn-articles.html">
+            
+                <a href="../Spider/2016-01-22-pyspider-fetch-csdn-articles.html">
+            
+                    
+                    基于pyspider的爬虫小练习 - 获取CSDN某个用户的所有文章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../Spider/2016-02-17-scrapy-prepare.html">
+            
+                <a href="../Spider/2016-02-17-scrapy-prepare.html">
+            
+                    
+                    基于scrapy的爬虫小练习 - 准备工作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../Spider/2016-02-25-scrapy-fetch-csdn-articles.html">
+            
+                <a href="../Spider/2016-02-25-scrapy-fetch-csdn-articles.html">
+            
+                    
+                    基于scrapy的爬虫小练习 - 获取CSDN某个用户的所有文章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../Spider/2016-06-15-scrapy-set-proxy-by-midware.html">
+            
+                <a href="../Spider/2016-06-15-scrapy-set-proxy-by-midware.html">
+            
+                    
+                    scrapy - 通过中间件设置代理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../Spider/2016-06-15-scrapy-solve-401-by-agent-client.html">
+            
+                <a href="../Spider/2016-06-15-scrapy-solve-401-by-agent-client.html">
+            
+                    
+                    scrapy - 通过设置agent client解决401问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../Spider/2016-06-16-scrapy-login.html">
+            
+                <a href="../Spider/2016-06-16-scrapy-login.html">
+            
+                    
+                    scrapy - 模拟登陆
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.8" data-path="../Spider/2016-08-16-how-to-start-scrapy-crawl-operation.html">
+            
+                <a href="../Spider/2016-08-16-how-to-start-scrapy-crawl-operation.html">
+            
+                    
+                    scrapy源码学习 - 启动一个crawl命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    Others
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../Others/2016-01-09-set-up-ELK-locally.html">
+            
+                <a href="../Others/2016-01-09-set-up-ELK-locally.html">
+            
+                    
+                    本地搭建ELK系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../Others/2016-01-10-logstash-filter-grok.html">
+            
+                <a href="../Others/2016-01-10-logstash-filter-grok.html">
+            
+                    
+                    logstash grok解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../Others/2016-08-23-modem-windows-second-development.html">
+            
+                <a href="../Others/2016-08-23-modem-windows-second-development.html">
+            
+                    
+                    windows短信猫二次开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >ImportError: No module named 'cPickle'</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><strong>&#x4EE3;&#x7801;&#xFF1A;</strong>  </p>
+<p>&#x5728;python3.x&#x4E0B;&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;  </p>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> cPickle <span class="hljs-keyword">as</span> pk
+</code></pre>
+<p><strong>&#x9519;&#x8BEF;&#xFF1A;</strong>  </p>
+<pre><code>ImportError: No module named &apos;cPickle&apos;
+</code></pre><!-- more -->
+<p><strong>&#x539F;&#x56E0;&#xFF1A;</strong>  </p>
+<p>python2&#x6709;cPickle&#xFF0C;&#x4F46;&#x662F;&#x5728;python3&#x4E0B;&#xFF0C;&#x662F;&#x6CA1;&#x6709;cPickle&#x7684;&#xFF1B;</p>
+<p><strong>&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#xFF1A;</strong><br>&#x5C06;cPickle&#x6539;&#x4E3A;pickle&#x5373;&#x53EF;&#xFF0C;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;  </p>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> pickle <span class="hljs-keyword">as</span> pk
+</code></pre>
+<div id="gitalk-container"></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2020-02-21-object-of-type-zip-has-no-len.html" class="navigation navigation-prev " aria-label="Previous page: object of type 'zip' has no len()">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2020-02-27-cannot-import-name-downsample.html" class="navigation navigation-next " aria-label="Next page: ImportError: cannot import name 'downsample'">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"ImportError: No module named 'cPickle'","category":["编程语言"],"tags":[],"level":"1.3.6","depth":2,"next":{"title":"ImportError: cannot import name 'downsample'","level":"1.3.7","depth":2,"path":"Python/2020-02-27-cannot-import-name-downsample.md","ref":"Python/2020-02-27-cannot-import-name-downsample.md","articles":[]},"previous":{"title":"object of type 'zip' has no len()","level":"1.3.5","depth":2,"path":"Python/2020-02-21-object-of-type-zip-has-no-len.md","ref":"Python/2020-02-21-object-of-type-zip-has-no-len.md","articles":[]},"dir":"ltr"},"config":{"plugins":["katex","katex-plus","alerts","mygitalk","github","github-buttons","splitter","-sharing","sharing-plus","donate","copy-code-button","anchor-navigation-ex","sectionx","click-reveal"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/windmissing/tools_notes"},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"http://windmissing.github.io/images/2020/alipay.jpg","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"http://windmissing.github.io/images/2020/weixin.jpg","wechatText":"微信打赏"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"click-reveal":{},"sectionx":{},"highlight":{},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"showLevel":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","showGoTop":true,"isShowTocTitleIcon":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"katex-plus":{},"alerts":{},"github-buttons":{"repo":"windmissing/tools_notes","types":["star","watch","fork"],"size":"small"},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"8f5f5a310400f155a1fc","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["windmissing"],"createIssueManually":false,"distractionFreeMode":false,"repo":"tools_notes","owner":"windmissing","enableHotKey":true,"clientSecret":"8b3179caedf65ca284c9580593c8d3d4de21d16a","pagerDirection":"last","labels":["Gitalk"]},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"windmissing","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"3.2.3"},"file":{"path":"Python/2020-02-21-python-error-cpickle.md","mtime":"2020-12-13T09:15:31.481Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-13T09:16:54.199Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-click-reveal/click_reveal.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
