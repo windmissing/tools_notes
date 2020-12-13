@@ -15,6 +15,15 @@
     * [eclipse插件在真实环境中没有效果](IDE/2016-12-09-eclipse-plugin-not-avalible-product.md)
     * [eclipse插件运行时提示NoClassDefFoundError](IDE/2016-12-09-eclipse-plugin-with-thirdparty-jar.md)
     * [eclipse插件导出失败](IDE/2016-12-09-eclpise-plugin-export-failure.md)
+* Python
+    * [pip安装python库时报错](Python/2020-11-25-python-libs-install.md)
+    * [库已经安装仍报ImportError](Python/2019-09-12-python-import-error.md)
+    * ['ascii' codec can't decode byte 0x90 in position 614: ordinal not in range(128)](Python/2020-02-21-ascii-codec-cant-decode.md)
+    * [NameError: name 'xrange' is not defined](Python/2020-02-21-name-xrange-is-not-defined.md)
+    * [object of type 'zip' has no len()](Python/2020-02-21-object-of-type-zip-has-no-len.md)
+    * [ImportError: No module named 'cPickle'](Python/2020-02-21-python-error-cpickle.md)
+    * [ImportError: cannot import name 'downsample'](Python/2020-02-27-cannot-import-name-downsample.md)
+    * [Failed to load the native TensorFlow runtime](Python/tensorflow.md)
 * 管理工具
     * [git使用技巧](Manage/2016-11-30-git-record.md)
     * [【译】git push报Bad file number](Manage/2016-11-16-git-error-bad-file-number.md)
